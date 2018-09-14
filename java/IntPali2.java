@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class IntPali{
+public class IntPali2{
 	static int originalNum;
 	static int reverseNum;
 	public static int reverseInt(int inNum){
@@ -28,4 +28,9 @@ public class IntPali{
 		 }
 	}
 }
-	
+		
+		
+		
+			
+		
+		
