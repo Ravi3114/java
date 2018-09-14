@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class IntPali{
 	static int originalNum;
 	static int reverseNum;
+	/* reverse the number*/
 	public static int reverseInt(int inNum){
 		originalNum=inNum;
 		int rem=0;
@@ -13,6 +14,7 @@ public class IntPali{
 		reverseNum=reverseNum1;
 		return reverseNum;
 	}
+	/* test whether the original Number and reversed number are same or not */
 	public static boolean areBothSame(){
 		boolean result=originalNum==reverseNum;
 		return result;
